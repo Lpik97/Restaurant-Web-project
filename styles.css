@@ -54,3 +54,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.above-header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
