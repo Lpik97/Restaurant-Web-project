@@ -47,3 +47,10 @@ table {
 	border-spacing: 0;
 }
 /* End of the reset-CSS */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
