@@ -68,6 +68,7 @@ body {
     font: italic 600 1.5rem var(--system-ui);
     color: white;
     background-color:rgb(214, 17, 245);
+    transition: 0.5s;
 }
 .above-header-text:hover {
     background-color: rgba(215, 17, 245, 0.5);
