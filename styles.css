@@ -63,4 +63,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    padding: 0.5% 0 0.5% 0;
+    font: italic 600 1.5rem var(--system-ui);
+    color: white;
+    background-color:rgb(214, 17, 245);
+}
+.above-header-text:hover {
+    background-color: rgba(215, 17, 245, 0.5);
+    cursor: pointer;
 }
