@@ -83,3 +83,11 @@ header {
     padding: 0.5% 0 0.5% 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+.logo-image {
+    width: 350px;
+}
+
+.logo-image:hover {
+    cursor: pointer;
+}
