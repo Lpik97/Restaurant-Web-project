@@ -85,9 +85,19 @@ header {
 }
 
 .logo-image {
-    width: 350px;
+    width: 20%;
 }
 
 .logo-image:hover {
     cursor: pointer;
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 2.5%;
+    font: normal 100 1.5rem var(--system-ui);
+    color: white;
 }
