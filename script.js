@@ -8,3 +8,12 @@ function reloadPage () {
     window.location.reload();
 }
 
+const header = document.querySelector("header");
+
+document.addEventListener('scroll', function () {
+    if (window.scrollY > 0) {
+        header.classList.add('scrolledBar');
+    } else {
+        header.classList.remove('scrolledBar');
+    }
+});
