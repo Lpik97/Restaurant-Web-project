@@ -131,4 +131,10 @@ header:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
+}
+
+.hero-title {
+    font: italic 600 3.5rem var(--system-ui);
+    color: rgb(214, 17, 245);
 }
