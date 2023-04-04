@@ -89,21 +89,26 @@ header:hover {
     position: sticky;
     top: 0;
     width: 100vw;
-    transition: 0.5s ease-in;
+    transition: 0.5s ease-in-out;
     background-color: rgb(0, 0, 0, 0.5);
 }
 
-.menu-bar.scrolledBar {
-    height: 10vh;
+.scrolledBar{
+    height: 90px;
     background-color: rgba(0, 0, 0, 1);
 }
 
 .logo-image {
     width: 20vw;
+    transition: 0.5s ease-in-out;
 }
 
 .logo-image:hover {
     cursor: pointer;
+}
+
+.scrolledImage {
+    width: 10vw;
 }
 
 .navigation-bar {
@@ -112,6 +117,11 @@ header:hover {
     align-items: center;
     width: 50vw;
     gap: 2.5%;
+    transition: 0.5s ease-in-out;
     font: normal 100 1.5rem var(--system-ui);
     color: white;
+}
+
+.scrolledNavBar {
+    font-size: 1.1rem;
 }
