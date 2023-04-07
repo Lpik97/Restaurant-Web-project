@@ -176,3 +176,9 @@ header:hover {
   box-shadow: #3c3c3c 0 3px 7px inset;
   transform: translateY(2px);
 }
+
+.carousel {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
