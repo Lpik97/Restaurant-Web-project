@@ -186,4 +186,9 @@ header:hover {
 .slide {
     position: absolute;
     inset: 0;
+    opacity: 0;
+}
+
+.slide[data-active] {
+    opacity: 1;
 }
