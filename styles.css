@@ -197,6 +197,20 @@ header:hover {
     color: rgb(214, 17, 245);
 }
 
+.salon-don-quijote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.salon-don-quijote-title {
+    font: italic 200 3rem var(--system-ui);
+    padding: 5vh 0 5vh 0;
+    color: rgb(214, 17, 245);
+}
+
 .carousel {
     width: 100vw;
     height: 100vh;
