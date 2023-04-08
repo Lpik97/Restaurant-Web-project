@@ -183,6 +183,20 @@ header:hover {
   transform: translateY(2px);
 }
 
+.mid-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0);
+}
+
+.mid-section-title {
+    font: italic 600 3.9rem var(--system-ui);
+    padding: 5vh 0 5vh 0;
+    color: rgb(214, 17, 245);
+}
+
 .carousel {
     width: 100vw;
     height: 100vh;
