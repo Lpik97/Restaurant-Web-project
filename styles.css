@@ -211,6 +211,21 @@ header:hover {
     color: rgb(214, 17, 245);
 }
 
+.salon-dulcinea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 17, 245);
+}
+
+.salon-dulcinea-title {
+    font: italic 200 3rem var(--system-ui);
+    padding: 5vh 0 5vh 0;
+    color: white;
+}
+
+
 .carousel {
     width: 100vw;
     height: 100vh;
