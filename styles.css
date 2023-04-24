@@ -64,12 +64,13 @@ header {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    padding: 1vh 0 1vh 0;
+    padding: 1vh 0;
     font: italic 600 1.5rem var(--system-ui);
     color: white;
     background-color:rgb(214, 17, 245);
-    transition: 0.5s;
+    transition: 0.3s all ease-in-out;
 }
+
 header:hover {
     background-color: rgba(215, 17, 245, 0.5);
     cursor: pointer;
