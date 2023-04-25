@@ -69,7 +69,7 @@ header {
     font: italic 600 1.5rem var(--system-ui);
     color: white;
     background-color:rgb(251, 105, 249);
-    transition: 0.3s all ease-in-out;
+    transition: .3s all ease-in-out;
 }
 
 header:hover {
@@ -92,13 +92,14 @@ header:hover {
     position: sticky;
     width: 100%;
     background-color: rgb(0, 0, 0, 0.5);
-    transition: 0.5s background-color ease-in-out;
+    transition: .5s background-color ease-in-out;
 }
 
-.menu-bar > ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.navbar-list {
+    display: flex;
+    gap: 1vw;
+    font: normal 500 1.5rem var(--system-ui);
+    color: white;
 }
 
 .scrolledBar{
