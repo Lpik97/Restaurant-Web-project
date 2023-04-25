@@ -1,6 +1,6 @@
-const menuBar = document.querySelector('.menu-bar');
-const logoImage = document.querySelector('.logo-image');
-const navBar = document.querySelector('.navigation-bar');
+const navBar = document.querySelector('.navbar');
+const navBarLogo = document.querySelector('.navbar-logo');
+const navBarList = document.querySelector('.navbar-list');
 const carouselButtons = document.querySelectorAll("[data-carousel-button]");
 
 function openWhatsApp () {
@@ -13,13 +13,14 @@ function reloadPage () {
 
 document.addEventListener('scroll', function () {
     if (window.scrollY > 0) {
-        menuBar.classList.add('scrolledBar');
-        logoImage.classList.add('scrolledImage');
-        navBar.classList.add('scrolledNavBar');
+        navBar.classList.add('scrolled-navbar');
+        navBarLogo.classList.add('scrolled-navbar-logo');
+        navBarList.classList.add('scrolled-navbar-list');
+
     } else {
-        menuBar.classList.remove('scrolledBar');
-        logoImage.classList.remove('scrolledImage');
-        navBar.classList.remove('scrolledNavBar');
+        navBar.classList.remove('scrolled-navbar');
+        navBarLogo.classList.remove('scrolled-navbar-logo');
+        navBarList.classList.remove('scrolled-navbar-list');
     }
 });
 
