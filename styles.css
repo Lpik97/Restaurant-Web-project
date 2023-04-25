@@ -123,7 +123,8 @@ header:hover {
     width: 40vw;
     height: 40vh;
     gap: 2vh;
-    border-radius: 1.1vw;
+    margin: 15vh 0;
+    border-radius: 1vw;
     padding: 1.5vh 3vw;
 }
 
