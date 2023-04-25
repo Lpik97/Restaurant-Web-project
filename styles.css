@@ -57,35 +57,32 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100vw;
 }
 
 header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     padding: 1vh 0;
     font: italic 600 1.5rem var(--system-ui);
     color: white;
-    background-color:rgb(214, 17, 245);
+    background-color:rgb(251, 105, 249);
     transition: 0.3s all ease-in-out;
 }
 
 header:hover {
-    background-color: rgba(215, 17, 245, 0.5);
+    background-color: rgb(251, 105, 249, .5);
     cursor: pointer;
 }
 
-.media-container {
+.upper-section {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 35vh;
-    width: 100vw;
-    height: 100vh;
-    background-image: url(call-to-action-picture.jpg);
-    background-attachment: fixed;
+    width: 100%;
+    background-image: url(./images/call-to-action-picture.jpg);
+    background-size: cover;
 }
 
 .menu-bar {
