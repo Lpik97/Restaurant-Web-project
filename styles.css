@@ -132,13 +132,11 @@ header:hover {
     white-space: nowrap;
     width: 100%;
     height: 50%;
-    color: rgb(214, 17, 245);
+    color: rgb(252, 62, 249);
 }
 
-.hero-sub-title {
-    font: normal 700 2.5rem var(--system-ui);
-    width: 100%;
-    height: 25%;
+.hero-subtitle {
+    font: normal 600 1.4rem var(--system-ui);
 }
 
 .hero-button {
