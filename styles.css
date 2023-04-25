@@ -136,7 +136,7 @@ header:hover {
 }
 
 .hero-subtitle {
-    font: normal 600 1.4rem var(--system-ui);
+    font: normal 500 1.4rem var(--system-ui);
 }
 
 .hero-button {
@@ -144,18 +144,15 @@ header:hover {
     width: 50%;
     height: 25%;
     border: 0;
-    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
-    box-sizing: border-box;
-    border-radius: 100px;
-    cursor: pointer;
-    background-color: rgb(214, 17, 245);
+    border-radius: 100vw;
+    background-color: rgb(251, 105, 249);
     color: white;
-    transition: all;
+    cursor: pointer;
+    transition: .3s background-color ease-in-out;
 }
 
-.hero-button:active {
-  box-shadow: #3c3c3c 0 3px 7px inset;
-  transform: translateY(2px);
+.hero-button:hover {
+    background-color: rgb(255, 0, 251);
 }
 
 .mid-section {
