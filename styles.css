@@ -95,6 +95,10 @@ header:hover {
     transition: .5s background-color ease-in-out;
 }
 
+.navbar-logo {
+    width: 18vw;
+}
+
 .navbar-list {
     display: flex;
     gap: 1vw;
