@@ -81,7 +81,8 @@ header:hover {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-image: url(./images/call-to-action-picture.jpg);
+    height: 100vh;
+    background-image: url(./images/237100918_4107228086056864_9137450518867179949_n.png);
     background-size: cover;
 }
 
