@@ -57,7 +57,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
 }
 
 header {
@@ -88,23 +87,24 @@ header:hover {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: sticky;
+    gap: 50%;
     width: 100%;
-    padding: 2vh 1vw;
+    padding: 2vh 0;
     background-color: rgb(0, 0, 0, 0.5);
     transition: .5s background-color ease-in-out;
 }
 
 .navbar-logo {
-    width: 18vw;
+    width: 15vw;
 }
 
 .navbar-list {
     display: flex;
     gap: 1vw;
-    font: normal 500 1.5rem var(--system-ui);
+    font: normal 500 1.1rem var(--system-ui);
     color: white;
 }
 
@@ -160,7 +160,7 @@ header:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     background-color: rgba(0, 0, 0);
 }
 
