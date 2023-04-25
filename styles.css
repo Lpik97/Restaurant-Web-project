@@ -107,18 +107,14 @@ header:hover {
     color: white;
 }
 
+.navbar-logo,
+.navbar-list .item:hover {
+    cursor: pointer;
+}
+
 .scrolledBar{
     height: 10vh;
     background-color: rgba(0, 0, 0, 1);
-}
-
-.logo-image {
-    width: 20vw;
-    transition: 0.5s ease-in-out;
-}
-
-.logo-image:hover {
-    cursor: pointer;
 }
 
 .scrolledImage {
