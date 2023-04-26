@@ -84,6 +84,7 @@ header:hover {
     height: 100vh;
     background-image: url(./images/237100918_4107228086056864_9137450518867179949_n.png);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .navbar {
@@ -145,6 +146,11 @@ header:hover {
     margin-top: 30vh;
     border-radius: 1vw;
     padding: 1.5vh 3vw;
+    transition: margin-top .5s;
+}
+
+.scrolled-hero {
+    margin-top: 35vh;
 }
 
 .hero-title {
