@@ -1,6 +1,7 @@
 const navBar = document.querySelector('.navbar');
 const navBarLogo = document.querySelector('.navbar-logo');
 const navBarList = document.querySelector('.navbar-list');
+const hero = document.querySelector('.hero');
 const carouselButtons = document.querySelectorAll("[data-carousel-button]");
 
 function openWhatsApp () {
@@ -16,11 +17,12 @@ document.addEventListener('scroll', function () {
         navBar.classList.add('scrolled-navbar');
         navBarLogo.classList.add('scrolled-navbar-logo');
         navBarList.classList.add('scrolled-navbar-list');
-
+        hero.classList.add('scrolled-hero');
     } else {
         navBar.classList.remove('scrolled-navbar');
         navBarLogo.classList.remove('scrolled-navbar-logo');
         navBarList.classList.remove('scrolled-navbar-list');
+        hero.classList.remove('scrolled-hero');
     }
 });
 
