@@ -91,22 +91,40 @@ header:hover {
     justify-content: center;
     align-items: center;
     position: sticky;
+    top: -1px;
+    z-index: 1;
     gap: 50%;
     width: 100%;
     padding: 2vh 0;
     background-color: rgb(0, 0, 0, 0.5);
-    transition: .5s background-color ease-in-out;
+    transition: height .5s, padding .5s, background-color .5s;
 }
 
 .navbar-logo {
     width: 15vw;
+    transition: width 0.5s;
 }
 
 .navbar-list {
     display: flex;
     gap: 1vw;
     font: normal 500 1.1rem var(--system-ui);
+    transition: font-size .5s;
     color: white;
+}
+
+.scrolled-navbar{
+    height: 7vh;
+    padding: 3vh 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.scrolled-navbar-logo {
+    width: 10vw;
+}
+
+.scrolled-navbar-list {
+    font-size: 1rem;
 }
 
 .navbar-logo,
