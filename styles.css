@@ -321,4 +321,12 @@ header:hover {
     background-color: rgba(0, 0, 0);
 }
 
+.section-subtitle {
+    font: normal 100 1.5rem var(--system-ui);
+    text-align: justify;
+    margin: 5vh 0;
+    width: 50%; 
+    color: white;
+}
+
 
