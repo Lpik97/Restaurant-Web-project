@@ -204,6 +204,7 @@ header:hover {
     justify-content: flex-start;
     align-items: center;
     padding-left: 2vw;
+    background-image: url(./images/marisol-benitez-Os8IuLEsSJU-unsplash.jpg);
 }
 
 .salon-dulcinea{
@@ -211,6 +212,11 @@ header:hover {
     justify-content: flex-end;
     align-items: center;
     padding-right: 2vw;
+    background-image: url(./images/al-elmes-ULHxWq8reao-unsplash.jpg);
+}
+
+.salon-sancho {
+    background-image: url(./images/call-to-action-picture.jpg);
 }
 
 .salon-don-quijote-text,
