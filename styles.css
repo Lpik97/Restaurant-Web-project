@@ -303,7 +303,7 @@ header:hover {
     color: var(--global-pink);
 }
 
-.salon-dulcinea-sub-title {
+.salon-dulcinea-subtitle {
     font: italic 100 1.5rem var(--system-ui);
     text-align: justify;
     width: 75%;
