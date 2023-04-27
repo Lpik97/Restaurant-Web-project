@@ -181,7 +181,7 @@ header:hover {
     background-color: rgb(255, 0, 251);
 }
 
-.mid-section {
+.products {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -190,7 +190,7 @@ header:hover {
     background-color: rgba(0, 0, 0);
 }
 
-.mid-section-title,
+.products-title,
 .section-title {
     font: italic 600 3.9rem var(--system-ui);
     padding: 5vh 0 5vh 0;
@@ -312,7 +312,7 @@ header:hover {
     color: white;
 }
 
-.why-choose-us {
+.us {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -321,7 +321,7 @@ header:hover {
     background-color: rgba(0, 0, 0);
 }
 
-.section-subtitle {
+.us-subtitle {
     font: normal 100 1.5rem var(--system-ui);
     text-align: justify;
     margin: 5vh 0;
