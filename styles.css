@@ -155,7 +155,7 @@ header:hover {
     margin-top: 35vh;
 }
 
-.hero-title {
+.hero-title{
     font: italic 600 3.9rem var(--system-ui);
     white-space: nowrap;
     color: var(--global-pink);
@@ -190,7 +190,8 @@ header:hover {
     background-color: rgba(0, 0, 0);
 }
 
-.mid-section-title {
+.mid-section-title,
+.section-title {
     font: italic 600 3.9rem var(--system-ui);
     padding: 5vh 0 5vh 0;
     color: var(--global-pink);
@@ -319,3 +320,5 @@ header:hover {
     width: 100%;
     background-color: rgba(0, 0, 0);
 }
+
+
