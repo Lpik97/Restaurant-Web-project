@@ -182,16 +182,16 @@ header:hover {
 }
 
 .products {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    display: grid;
+    grid-template: repeat(4, 1fr) / 1fr;
     background-color: rgba(0, 0, 0);
 }
 
 .products-title,
 .section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font: italic 600 3.9rem var(--system-ui);
     padding: 5vh 0 5vh 0;
     color: var(--global-pink);
@@ -200,11 +200,21 @@ header:hover {
 .salon-don-quijote,
 .salon-sancho {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    width: 100%;
-    background-color: white;
+}
+
+.salon-dulcinea{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.salon-don-quijote-text,
+.salon-dulcinea-text,
+.salon-sancho-text {
+    display: flex;
+    flex-direction: column;
 }
 
 .salon-don-quijote-title,
@@ -212,15 +222,6 @@ header:hover {
     font: italic 200 3rem var(--system-ui);
     padding: 5vh 0 5vh 0;
     color: var(--global-pink);
-}
-
-.salon-dulcinea {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: var(--global-pink);
 }
 
 .salon-dulcinea-title {
@@ -233,12 +234,6 @@ header:hover {
     width: 75vw;
     height: 75vh;
     position: relative;
-}
-
-.carousel > ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
 }
 
 .carousel-button {
