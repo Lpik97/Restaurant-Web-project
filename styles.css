@@ -202,13 +202,16 @@ header:hover {
 .salon-don-quijote,
 .salon-sancho {
     display: flex;
+    justify-content: flex-start;
     align-items: center;
+    padding-left: 2vw;
 }
 
 .salon-dulcinea{
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
+    padding-right: 2vw;
 }
 
 .salon-don-quijote-text,
@@ -216,7 +219,7 @@ header:hover {
 .salon-sancho-text {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 50%;
 }
 
 .salon-don-quijote-title,
