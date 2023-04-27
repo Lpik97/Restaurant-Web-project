@@ -194,8 +194,7 @@ header:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    font: italic 600 3.9rem var(--system-ui);
-    padding: 5vh 0 5vh 0;
+    font: italic 600 3.5rem var(--system-ui);
     color: var(--global-pink);
 }
 
@@ -223,21 +222,20 @@ header:hover {
 }
 
 .salon-don-quijote-title,
+.salon-dulcinea-title,
 .salon-sancho-title {
-    font: italic 200 2.5rem var(--system-ui);
+    font: italic 600 2.2rem var(--system-ui);
     color: var(--global-pink);
 }
 
 .salon-dulcinea-title {
-    font: italic 200 2.5rem var(--system-ui);
     color: white;
 }
-
 
 .salon-don-quijote-subtitle,
 .salon-dulcinea-subtitle,
 .salon-sancho-subtitle {
-    font: italic 100 1.2rem var(--system-ui);
+    font: normal 100 1.1rem var(--system-ui);
     text-align: justify;
     color: var(--global-pink);
 }
