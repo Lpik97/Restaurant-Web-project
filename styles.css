@@ -193,7 +193,7 @@ header:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    font: italic 600 3.5rem var(--system-ui);
+    font: italic 600 4.5rem var(--system-ui);
     color: var(--global-pink);
 }
 
