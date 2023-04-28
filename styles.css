@@ -47,10 +47,15 @@ table {
 	border-spacing: 0;
 }
 /* End of the reset-CSS */
+@font-face {
+    font-family: Public_Sans;
+    src: url(./Fonts/Public_Sans/PublicSans-VariableFont_wght.ttf);
+}
 
 :root {
     --system-ui: Montserrat, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --global-pink: rgb(251, 105, 249);
+    --neon-pink: #f7b8fd;
 }
 
 body {
@@ -141,7 +146,6 @@ header:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgba(255, 255, 255, .85);
     width: 40vw;
     height: 40vh;
     gap: 2vh;
@@ -156,13 +160,10 @@ header:hover {
 }
 
 .hero-title{
-    font: italic 600 3.9rem var(--system-ui);
+    font: normal 550 3.5rem Public_Sans;
+    text-shadow: 0 0 5px var(--neon-pink), 0 0 10px var(--neon-pink), 0 0 15px var(--neon-pink), 0 0 20px var(--neon-pink), 0 0 30px var(--neon-pink), 0 0 40px var(--neon-pink), 0 0 55px var(--neon-pink), 0 0 75px var(--neon-pink), 2px 2px 5px rgba(255,255,255,0);
     white-space: nowrap;
-    color: var(--global-pink);
-}
-
-.hero-subtitle {
-    font: normal 500 1.4rem var(--system-ui);
+    color: white;
 }
 
 .hero-button {
@@ -170,7 +171,6 @@ header:hover {
     width: 50%;
     height: 25%;
     border: 0;
-    border-radius: 100vw;
     background-color: var(--global-pink);
     color: white;
     cursor: pointer;
