@@ -109,8 +109,8 @@ header:hover {
 .navbar-list {
     display: flex;
     gap: 1vw;
-    font: normal 500 1.1rem var(--system-ui);
-    transition: font-size .5s;
+    font: normal 100 1.1rem var(--system-ui);
+    transition: font .5s;
     color: white;
 }
 
@@ -127,7 +127,7 @@ header:hover {
 }
 
 .scrolled-navbar-list {
-    font-size: 1rem;
+    font: normal 600 1rem var(--system-ui);
 }
 
 .navbar-logo,
