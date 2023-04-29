@@ -188,8 +188,7 @@ header:hover {
     background-color: rgba(22, 22, 22);
 }
 
-.products-title,
-.section-title {
+.products-title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -287,14 +286,22 @@ header:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: rgba(0, 0, 0);
+    background-color: rgba(25, 25, 25);
+}
+
+.us-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0;
+    font: italic 600 4.5rem var(--system-ui);
+    color: var(--global-pink);
 }
 
 .us-subtitle {
-    font: normal 100 1.5rem var(--system-ui);
     text-align: justify;
-    margin: 5vh 0;
     width: 50%; 
+    font: normal 100 1.5rem var(--system-ui);
     color: white;
 }
 
