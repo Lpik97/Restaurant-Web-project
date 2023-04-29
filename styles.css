@@ -294,7 +294,7 @@ header:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5vh 0;
+    padding-top: 5vh;
     font: italic 600 4.5rem var(--system-ui);
     color: var(--global-pink);
 }
@@ -309,8 +309,19 @@ header:hover {
 .us-text {
     text-align: justify;
     width: 50%;
+    padding-bottom: 5vh;
     font: italic 600 2.4rem var(--system-ui);
     color: white;
+}
+
+.clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5vh 5vw;
+    gap: 3vh;
 }
 
 
