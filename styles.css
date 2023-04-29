@@ -332,4 +332,13 @@ header:hover {
     color: var(--global-pink);
 }
 
+.clients-reviews-title,
+.clients-logos-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal 600 1rem Public_Sans;
+    color: grey;
+}
+
 
