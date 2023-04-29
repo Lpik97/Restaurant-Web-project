@@ -204,18 +204,28 @@ header:hover {
     align-items:last baseline;
     padding: 5vh 5vw;
     background-image: url(./images/marisol-benitez-Os8IuLEsSJU-unsplash.jpg);
+    transform: translateX(100%);
+    transition: transform 5s ease-out;
 }
 
-.salon-dulcinea{
+.salon-dulcinea {
     display: flex;
     justify-content: flex-end;
     align-items:last baseline;
     padding: 5vh 5vw;
     background-image: url(./images/al-elmes-ULHxWq8reao-unsplash.jpg);
+    transform: translateX(-100%);
+    transition: transform 5s ease-out;
 }
 
 .salon-sancho {
     background-image: url(./images/call-to-action-picture.jpg);
+}
+
+.scrolled-salon-don-quijote,
+.scrolled-salon-dulcinea,
+.scrolled-salon-sancho {
+    transform: translateX(0);
 }
 
 .salon-don-quijote-text,
