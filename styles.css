@@ -232,9 +232,18 @@ header:hover {
 
 .salon-don-quijote:hover,
 .salon-dulcinea:hover,
-.salon-sancho:hover {
+.salon-sancho:hover{
     cursor: pointer;
     opacity: 1;
+}
+
+.salon-don-quijote:hover .salon-don-quijote-text,
+.salon-sancho:hover .salon-sancho-text {
+    background-color: rgb(255, 255, 255);
+}
+
+.salon-dulcinea:hover .salon-dulcinea-text {
+    background-color: rgb(25, 25, 25);
 }
 
 .salon-don-quijote-text,
@@ -247,15 +256,6 @@ header:hover {
     padding: 1vw;
     border-radius: .5vw;
     transition: all .5s ease-in-out;
-}
-
-.salon-don-quijote-text:hover,
-.salon-sancho-text:hover {
-    background-color: rgb(255, 255, 255);
-}
-
-.salon-dulcinea-text:hover {
-    background-color: rgb(22, 22, 22);
 }
 
 .salon-don-quijote-title,
