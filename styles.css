@@ -286,7 +286,7 @@ header:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    gap: 3vh;
+    gap: 5vh;
     background-color: rgba(25, 25, 25);
 }
 
@@ -321,7 +321,15 @@ header:hover {
     align-items: center;
     width: 100%;
     padding: 5vh 5vw;
-    gap: 3vh;
+    gap: 5vh;
+}
+
+.clients-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: italic 600 4.5rem var(--system-ui);
+    color: var(--global-pink);
 }
 
 
