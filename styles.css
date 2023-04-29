@@ -286,6 +286,7 @@ header:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
+    gap: 3vh;
     background-color: rgba(25, 25, 25);
 }
 
@@ -302,6 +303,13 @@ header:hover {
     text-align: justify;
     width: 50%; 
     font: normal 100 1.5rem var(--system-ui);
+    color: white;
+}
+
+.us-text {
+    text-align: justify;
+    width: 50%;
+    font: italic 600 2.4rem var(--system-ui);
     color: white;
 }
 
