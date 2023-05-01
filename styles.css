@@ -370,3 +370,12 @@ header:hover {
     background-color: rgba(25, 25, 25);
 }
 
+.meetus-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    font: italic 600 4.5rem var(--system-ui);
+    color: var(--global-pink);
+}
+
