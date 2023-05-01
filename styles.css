@@ -396,7 +396,15 @@ header:hover {
     height: 65vh;
     border: 1px solid rgb(0, 0, 0, .5);
     border-radius: .1vw;
-    background-color: white;
+    background-size: cover;
+}
+
+.meetus-cards-left {
+    background-image: url(./images/marisol-benitez-Os8IuLEsSJU-unsplash.jpg);
+}
+
+.meetus-cards-right {
+    background-image: url(./images/237100918_4107228086056864_9137450518867179949_n.png);
 }
 
 .meetus-cards-title {
