@@ -379,3 +379,9 @@ header:hover {
     color: var(--global-pink);
 }
 
+.meetus-cards {
+    display: grid;
+    column-gap: 15vw;
+    grid-template: 1fr / repeat(2, 1fr);
+}
+
