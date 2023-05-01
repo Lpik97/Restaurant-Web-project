@@ -359,3 +359,14 @@ header:hover {
     filter:grayscale(100%);
 }
 
+.meetus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5vh 5vw;
+    gap: 5vh;
+    background-color: rgba(25, 25, 25);
+}
+
