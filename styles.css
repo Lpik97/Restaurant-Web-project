@@ -353,4 +353,9 @@ header:hover {
     grid-template: 1fr / repeat(4, 1fr);
 }
 
+.clients-logos-media img {
+    width: 10vw;
+    height: 12vh;
+    filter:grayscale(100%);
+}
 
