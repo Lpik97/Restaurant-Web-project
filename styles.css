@@ -347,3 +347,10 @@ header:hover {
     gap: 2.5vh;
 }
 
+.clients-logos-media {
+    display: grid;
+    column-gap: 5vw;
+    grid-template: 1fr / repeat(4, 1fr);
+}
+
+
