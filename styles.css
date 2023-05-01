@@ -374,7 +374,6 @@ header:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 5vh;
     font: italic 600 4.5rem var(--system-ui);
     color: var(--global-pink);
 }
@@ -397,6 +396,7 @@ header:hover {
     border: 1px solid rgb(0, 0, 0, .5);
     border-radius: .1vw;
     background-size: cover;
+    transition: cursor .3s ease-in-out, border .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .meetus-cards-left {
@@ -412,5 +412,12 @@ header:hover {
     font: normal 600 4.5rem var(--system-ui);
     color: white;
     text-shadow: 1px 1px 5px rgb(0, 0, 0, .5);
+}
+
+.meetus-cards-left:hover,
+.meetus-cards-right:hover{
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 55px white, 0 0 75px white, 2px 2px 5px rgba(255,255,255,0);
 }
 
