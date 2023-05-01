@@ -381,7 +381,7 @@ header:hover {
 
 .meetus-cards {
     display: grid;
-    column-gap: 15vw;
+    column-gap: 10vw;
     grid-template: 1fr / repeat(2, 1fr);
 }
 
@@ -389,8 +389,11 @@ header:hover {
 .meetus-cards-right {
     display: flex;
     flex-direction: column;
-    gap: 25vh;
+    align-items: center;
+    gap: 20vh;
+    width: 30vw;
     height: 65vh;
     border: 1px solid red;
+    background-color: white;
 }
 
