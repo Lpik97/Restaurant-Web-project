@@ -192,6 +192,7 @@ header:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10vh 0;
     font: italic 600 4.5rem var(--system-ui);
     color: var(--global-pink);
 }
@@ -294,7 +295,7 @@ header:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 5vh;
+    margin: 10vh 0;
     font: italic 600 4.5rem var(--system-ui);
     color: var(--global-pink);
 }
@@ -328,6 +329,7 @@ header:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10vh 0;
     font: italic 600 4.5rem var(--system-ui);
     color: var(--global-pink);
 }
@@ -374,6 +376,7 @@ header:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10vh 0;
     font: italic 600 4.5rem var(--system-ui);
     color: var(--global-pink);
 }
