@@ -103,20 +103,20 @@ header:hover {
     width: 100%;
     padding: 2vh 0;
     background-color: rgb(0, 0, 0, 0.5);
-    transition: height .5s, padding .5s, background-color .5s;
+    transition: height .5s ease-in-out, padding .5s ease-in-out, background-color .5s ease-in-out;
 }
 
 .navbar-logo {
     width: 15vw;
-    transition: width 0.5s;
+    transition: width 0.5s ease-in-out;
 }
 
 .navbar-list {
     display: flex;
     gap: 1vw;
     font: normal 100 1.1rem var(--system-ui);
-    transition: font .5s;
     color: white;
+    transition: font .5s ease-in-out;
 }
 
 .scrolled-navbar{
