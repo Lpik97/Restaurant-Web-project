@@ -385,3 +385,12 @@ header:hover {
     grid-template: 1fr / repeat(2, 1fr);
 }
 
+.meetus-cards-left,
+.meetus-cards-right {
+    display: flex;
+    flex-direction: column;
+    gap: 25vh;
+    height: 65vh;
+    border: 1px solid red;
+}
+
