@@ -123,6 +123,11 @@ header:hover {
     cursor: pointer;
 }
 
+.navbar-list .item:hover {
+    font-weight: 600;
+    transform: scale(1.1);
+}
+
 .scrolled-navbar{
     position: fixed;
     z-index: 2;
