@@ -98,17 +98,16 @@ header:hover {
     justify-content: center;
     align-items: center;
     top: -1px;
-    z-index: 1;
     gap: 50%;
     width: 100%;
     padding: 2vh 0;
     background-color: rgb(0, 0, 0, 0.5);
-    transition: height .5s ease-in-out, padding .5s ease-in-out, background-color .5s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 .navbar-logo {
     width: 15vw;
-    transition: width 0.5s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 .navbar-list {
@@ -116,7 +115,12 @@ header:hover {
     gap: 1vw;
     font: normal 100 1.1rem var(--system-ui);
     color: white;
-    transition: font .5s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.navbar-logo,
+.navbar-list .item:hover {
+    cursor: pointer;
 }
 
 .scrolled-navbar{
@@ -133,11 +137,6 @@ header:hover {
 
 .scrolled-navbar-list {
     font: normal 600 1rem var(--system-ui);
-}
-
-.navbar-logo,
-.navbar-list .item:hover {
-    cursor: pointer;
 }
 
 .hero {
