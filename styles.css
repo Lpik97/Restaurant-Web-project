@@ -238,11 +238,8 @@ header:hover {
 }
 
 .salon-don-quijote:hover .salon-don-quijote-text,
+.salon-dulcinea:hover .salon-dulcinea-text,
 .salon-sancho:hover .salon-sancho-text {
-    background-color: rgb(255, 255, 255);
-}
-
-.salon-dulcinea:hover .salon-dulcinea-text {
     background-color: rgb(25, 25, 25);
 }
 
@@ -262,10 +259,6 @@ header:hover {
 .salon-dulcinea-title,
 .salon-sancho-title {
     font: italic 600 2.2rem var(--system-ui);
-    color: var(--global-pink);
-}
-
-.salon-dulcinea-title {
     color: white;
 }
 
@@ -274,10 +267,6 @@ header:hover {
 .salon-sancho-subtitle {
     font: normal 100 1.1rem var(--system-ui);
     text-align: justify;
-    color: var(--global-pink);
-}
-
-.salon-dulcinea-subtitle {
     color: white;
 }
 
