@@ -52,6 +52,16 @@ table {
     src: url(./Fonts/Public_Sans/PublicSans-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: Open-sauce;
+    src: url(./Fonts/Open_Sauce/OpenSauceOne-Medium.ttf);
+}
+
+@font-face {
+    font-family: Prata;
+    src: url(./Fonts/Prata/Prata-Regular.ttf);
+}
+
 :root {
     --system-ui: Montserrat, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --global-pink: rgb(251, 105, 249);
@@ -294,6 +304,11 @@ header:hover {
     display: flex;
     flex-direction: column;
     gap: 20vh;
+}
+
+.us-first-title {
+    font: normal 100 2.5rem Prata;
+    color: white;
 }
 
 
