@@ -286,6 +286,10 @@ header:hover {
     gap: 5vw;
 }
 
+.us-first-img {
+    width: 25vw;
+}
+
 
 .clients {
     display: flex;
