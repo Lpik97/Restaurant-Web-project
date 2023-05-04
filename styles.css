@@ -118,14 +118,18 @@ header:hover {
     transition: all 1s ease-in-out;
 }
 
+.item {
+    transition: all .1s ease-in-out;
+}
+
 .navbar-logo,
 .navbar-list .item:hover {
     cursor: pointer;
 }
 
 .navbar-list .item:hover {
-    font-weight: 600;
-    transform: scale(1.1);
+    text-decoration: underline;
+    text-shadow: 0 0 .1px white, 0 0 .1px white, 0 0 .1px white;
 }
 
 .scrolled-navbar{
