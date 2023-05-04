@@ -290,6 +290,12 @@ header:hover {
     width: 25vw;
 }
 
+.us-first-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20vh;
+}
+
 
 .clients {
     display: flex;
