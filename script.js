@@ -1,7 +1,6 @@
 const navBar = document.querySelector('.navbar');
 const navBarLogo = document.querySelector('.navbar-logo');
 const navBarList = document.querySelector('.navbar-list');
-const hero = document.querySelector('.hero');
 const salonDonQuijote = document.querySelector('.salon-don-quijote');
 const salonDulcinea = document.querySelector('.salon-dulcinea');
 const salonSancho = document.querySelector('.salon-sancho');
@@ -21,12 +20,10 @@ document.addEventListener('scroll', function () {
         navBar.classList.add('scrolled-navbar');
         navBarLogo.classList.add('scrolled-navbar-logo');
         navBarList.classList.add('scrolled-navbar-list');
-        hero.classList.add('scrolled-hero');
     } else {
         navBar.classList.remove('scrolled-navbar');
         navBarLogo.classList.remove('scrolled-navbar-logo');
         navBarList.classList.remove('scrolled-navbar-list');
-        hero.classList.remove('scrolled-hero');
     }
 });
 
