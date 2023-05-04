@@ -157,14 +157,8 @@ header:hover {
     width: 40vw;
     height: 40vh;
     gap: 2vh;
-    margin-top: 30vh;
     border-radius: 1vw;
-    padding: 1.5vh 3vw;
-    transition: margin-top .5s;
-}
-
-.scrolled-hero {
-    margin-top: 52vh;
+    padding: 25vh 3vw;
 }
 
 .hero-title{
