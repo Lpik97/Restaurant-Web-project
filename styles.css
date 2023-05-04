@@ -201,7 +201,8 @@ header:hover {
     justify-content: flex-start;
     align-items:last baseline;
     padding: 5vh 5vw;
-    background-image: url(./images/marisol-benitez-Os8IuLEsSJU-unsplash.jpg);
+    background-image: url(./images/ibrahim-boran-m8YjB0noWiY-unsplash.jpg);
+    background-size: cover;
     opacity: .5;
     transform: translateX(100%);
     transition: transform 5s ease-out, cursor .1s ease-in, opacity .5s ease-in-out;
@@ -212,14 +213,16 @@ header:hover {
     justify-content: flex-end;
     align-items:last baseline;
     padding: 5vh 5vw;
-    background-image: url(./images/al-elmes-ULHxWq8reao-unsplash.jpg);
+    background-image: url(./images/andrii-olishevskyi-iTc58VLTtEw-unsplash.jpg);
+    background-size: cover;
     opacity: .5;
     transform: translateX(-100%);
     transition: transform 5s ease-out, cursor .1s ease-in, back, opacity .5s ease-in-out;
 }
 
 .salon-sancho {
-    background-image: url(./images/call-to-action-picture.jpg);
+    background-image: url(./images/thomas-william-OAVqa8hQvWI-unsplash.jpg);
+    background-size: cover;
 }
 
 .scrolled-salon-don-quijote,
@@ -278,29 +281,11 @@ header:hover {
     background-color: rgba(25, 25, 25);
 }
 
-.us-title {
+.us-first {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10vh 0;
-    font: italic 600 4.5rem var(--system-ui);
-    color: var(--global-pink);
+    gap: 5vw;
 }
 
-.us-subtitle {
-    text-align: justify;
-    width: 50%; 
-    font: normal 100 1.5rem var(--system-ui);
-    color: white;
-}
-
-.us-text {
-    text-align: justify;
-    width: 50%;
-    padding-bottom: 5vh;
-    font: italic 600 2.4rem var(--system-ui);
-    color: white;
-}
 
 .clients {
     display: flex;
@@ -390,11 +375,11 @@ header:hover {
 }
 
 .meetus-cards-left {
-    background-image: url(./images/marisol-benitez-Os8IuLEsSJU-unsplash.jpg);
+    background-image: url(./images/karl-hedin-wN3q1ANmXJQ-unsplash.jpg);
 }
 
 .meetus-cards-right {
-    background-image: url(./images/237100918_4107228086056864_9137450518867179949_n.png);
+    background-image: url(./images/logan-weaver-lgnwvr-vJlaWLnGcb0-unsplash.jpg);
 }
 
 .meetus-cards-title {
