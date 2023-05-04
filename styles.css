@@ -311,6 +311,13 @@ header:hover {
     color: white;
 }
 
+.us-first-text {
+    text-align: justify;
+    width: 30vw;
+    font: normal 100 1.5rem Open_Sauce;
+    color: white;
+}
+
 
 .clients {
     display: flex;
