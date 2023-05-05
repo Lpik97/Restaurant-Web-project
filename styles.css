@@ -305,12 +305,18 @@ header:hover {
 .us-first-container {
     display: flex;
     flex-direction: column;
-    gap: 17vh;
+    gap: 10vh;
 }
 
 .us-first-title {
     font: normal 100 2.5rem Prata;
     color: white;
+}
+
+.us-first-pcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
 }
 
 .us-first-text {
