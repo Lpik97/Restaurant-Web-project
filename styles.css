@@ -325,6 +325,12 @@ header:hover {
     color: rgb(25, 25, 25);
 }
 
+.us-second {
+    width: 100%;
+    padding: 10vh 0;
+    background-color: white;
+}
+
 
 .clients {
     display: flex;
