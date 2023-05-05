@@ -305,7 +305,7 @@ header:hover {
 .us-first-container {
     display: flex;
     flex-direction: column;
-    gap: 20vh;
+    gap: 17vh;
 }
 
 .us-first-title {
@@ -316,7 +316,7 @@ header:hover {
 .us-first-text {
     text-align: justify;
     width: 30vw;
-    font: normal 100 1.5rem Open_Sauce;
+    font: normal 100 1.5rem Open-sauce;
     color: white;
 }
 
