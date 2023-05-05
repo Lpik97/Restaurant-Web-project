@@ -326,6 +326,8 @@ header:hover {
 }
 
 .us-second {
+    display: flex;
+    justify-content: center;
     width: 100%;
     padding: 10vh 0;
     background-color: white;
