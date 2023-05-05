@@ -340,6 +340,11 @@ header:hover {
     column-gap: 1vw;
 }
 
+.us-second-title {
+    font: normal 300 2.5rem Prata;
+    color: rgb(25, 25, 25);
+}
+
 .clients {
     display: flex;
     flex-direction: column;
