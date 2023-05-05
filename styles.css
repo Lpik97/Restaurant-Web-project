@@ -349,6 +349,11 @@ header:hover {
     width: 30vw;
 }
 
+.us-second-quote {
+    font: normal 100 1.5rem Open-sauce;
+    color: rgb(25, 25, 25);
+}
+
 .us-second-image-two {
     width: 25vw;
 }
