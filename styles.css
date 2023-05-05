@@ -331,6 +331,12 @@ header:hover {
     background-color: white;
 }
 
+.us-second-grid {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    row-gap: 1vh;
+    column-gap: 1vw;
+}
 
 .clients {
     display: flex;
