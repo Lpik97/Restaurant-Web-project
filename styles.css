@@ -54,7 +54,7 @@ table {
 
 @font-face {
     font-family: Open-sauce;
-    src: url(./Fonts/Open_Sauce/OpenSauceOne-Medium.ttf);
+    src: url(./Fonts/Open_Sauce/OpenSauceOne-Light.ttf);
 }
 
 @font-face {
@@ -287,7 +287,6 @@ header:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    gap: 5vh;
     background-color: rgba(25, 25, 25);
 }
 
