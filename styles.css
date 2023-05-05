@@ -345,6 +345,18 @@ header:hover {
     color: rgb(25, 25, 25);
 }
 
+.us-second-image-one {
+    width: 30vw;
+}
+
+.us-second-image-two {
+    width: 25vw;
+}
+
+.us-second-image-three {
+    width: 25vw;
+}
+
 .clients {
     display: flex;
     flex-direction: column;
