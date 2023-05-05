@@ -346,25 +346,19 @@ header:hover {
 }
 
 .us-second-image-one {
+    padding-top: 1vh;
     width: 30vw;
 }
 
 .us-second-image-two {
     width: 25vw;
+    margin-top: -30vh;
 }
 
 .us-second-quote {
     font: normal 100 1.5rem Open-sauce;
     color: rgb(25, 25, 25);
-}
-
-.us-second-text {
-    font: normal 600 1.5rem Open-sauce;
-    color: rgb(25, 25, 25);
-}
-
-.us-second-image-three {
-    width: 25vw;
+    margin-top: -10vh;
 }
 
 .clients {
