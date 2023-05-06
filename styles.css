@@ -336,6 +336,7 @@ header:hover {
 .us-second-container {
     display: flex;
     flex-direction: column;
+    width: 25vw;
     gap: 10vh;
 }
 
