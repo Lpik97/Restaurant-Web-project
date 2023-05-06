@@ -359,6 +359,13 @@ header:hover {
     width: 25vw;
 }
 
+.us-third {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+
 .clients {
     display: flex;
     flex-direction: column;
