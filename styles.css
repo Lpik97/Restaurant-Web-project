@@ -313,6 +313,7 @@ header:hover {
 .us-first-pcontainer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 2vh;
 }
 
