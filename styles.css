@@ -306,7 +306,7 @@ header:hover {
 }
 
 .us-first-title {
-    font: normal 300 3.05rem Prata;
+    font: normal 300 3rem Prata;
     color: rgb(25, 25, 25);
 }
 
@@ -387,8 +387,6 @@ header:hover {
     color: rgb(25, 25, 25);
     width: 25vw;
 }
-
-
 
 .clients {
     display: flex;
