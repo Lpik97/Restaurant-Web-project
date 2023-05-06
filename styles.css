@@ -353,9 +353,10 @@ header:hover {
 }
 
 .us-second-quote {
-    font: normal 100 1.5rem Open-sauce;
+    font: normal 100 1.2rem Open-sauce;
     color: rgb(25, 25, 25);
-    margin-top: -10vh;
+    margin-top: -5vh;
+    width: 25vw;
 }
 
 .clients {
