@@ -334,8 +334,8 @@ header:hover {
 .us-second-grid {
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-    row-gap: 5vh;
-    column-gap: 1vw;
+    row-gap: 1vh;
+    column-gap: 5vw;
 }
 
 .us-second-title {
