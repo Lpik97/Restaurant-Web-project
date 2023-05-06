@@ -403,6 +403,7 @@ header:hover {
     width: 100%;
     padding: 5vh 5vw;
     gap: 5vh;
+    background-color: rgb(225, 225, 225);
 }
 
 .clients-title {
@@ -448,7 +449,6 @@ header:hover {
     width: 100%;
     padding: 5vh 0;
     gap: 5vh;
-    background-color: rgba(25, 25, 25);
 }
 
 .meetus-title {
