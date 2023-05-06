@@ -374,6 +374,7 @@ header:hover {
 }
 
 .us-third-img {
+    align-self: center;
     width: 25vw;
 }
 
