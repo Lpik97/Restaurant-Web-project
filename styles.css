@@ -376,6 +376,12 @@ header:hover {
     width: 32.5vw;
 }
 
+.us-third-container {
+    display: flex;
+    flex-direction: column;
+    gap: 9vh;
+}
+
 .us-third-title {
     font: normal 300 4rem Prata;
     color: rgb(25, 25, 25);
