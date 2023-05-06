@@ -366,6 +366,11 @@ header:hover {
     background-color: white;
 }
 
+.us-third-grid {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+}
+
 .us-third-img {
     width: 35vw;
 }
@@ -380,6 +385,8 @@ header:hover {
     color: rgb(25, 25, 25);
     width: 25vw;
 }
+
+
 
 .clients {
     display: flex;
