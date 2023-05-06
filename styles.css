@@ -366,6 +366,10 @@ header:hover {
     background-color: white;
 }
 
+.us-third-img {
+    width: 35vw;
+}
+
 .clients {
     display: flex;
     flex-direction: column;
