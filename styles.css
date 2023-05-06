@@ -381,6 +381,7 @@ header:hover {
 .us-third-container {
     display: flex;
     flex-direction: column;
+    gap: 10vh;
 }
 
 .us-third-title {
