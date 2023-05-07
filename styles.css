@@ -440,16 +440,15 @@ header:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 15vh 0;
     width: 100%;
-    padding: 5vh 0;
-    gap: 5vh;
 }
 
 .meetus-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10vh 0;
+    margin-bottom: 10vh;
     font: italic 600 4.5rem var(--system-ui);
     color: var(--global-pink);
 }
