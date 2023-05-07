@@ -199,7 +199,6 @@ header:hover {
     display: grid;
     grid-template: 10% repeat(3, 1fr) / 1fr;
     height: 200vh;
-    background-color: rgba(22, 22, 22);
 }
 
 .products-title {
