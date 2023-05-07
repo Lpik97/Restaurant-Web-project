@@ -484,7 +484,7 @@ header:hover {
 
 .meetus-cards-title {
     text-align: center;
-    font: normal 600 4.5rem var(--system-ui);
+    font: italic 600 4.5rem var(--system-ui);
     color: white;
     text-shadow: 1px 1px 5px rgb(0, 0, 0, .5);
 }
@@ -492,7 +492,6 @@ header:hover {
 .meetus-cards-left:hover,
 .meetus-cards-right:hover{
     cursor: pointer;
-    border: none;
-    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 55px white, 0 0 75px white, 2px 2px 5px rgba(255,255,255,0);
+    box-shadow: 0 0 5px var(--neon-pink), 0 0 10px var(--neon-pink), 0 0 15px var(--neon-pink), 0 0 20px var(--neon-pink), 0 0 30px var(--neon-pink), 0 0 40px var(--neon-pink), 0 0 55px var(--neon-pink), 0 0 75px var(--neon-pink), 2px 2px 5px rgba(255,255,255,0);
 }
 
