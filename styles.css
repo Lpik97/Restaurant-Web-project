@@ -449,8 +449,8 @@ header:hover {
     justify-content: center;
     align-items: center;
     margin-bottom: 10vh;
-    font: italic 600 4.5rem var(--system-ui);
-    color: var(--global-pink);
+    font: normal 600 4.5rem Montreal;
+    color: rgb(25, 25, 25);
 }
 
 .meetus-cards {
