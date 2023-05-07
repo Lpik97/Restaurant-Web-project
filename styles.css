@@ -62,6 +62,11 @@ table {
     src: url(./Fonts/Prata/Prata-Regular.ttf);
 }
 
+@font-face {
+    font-family: Montreal;
+    src: url(./Fonts/montreal/Montreal-Bold.ttf);
+}
+
 :root {
     --system-ui: Montserrat, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --global-pink: rgb(251, 105, 249);
@@ -403,15 +408,15 @@ header:hover {
     width: 100%;
     padding: 5vh 5vw;
     gap: 5vh;
-    background-color: rgb(225, 225, 225);
+    background-color: rgb(240, 240, 240);
 }
 
 .clients-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    font: italic 600 4.5rem var(--system-ui);
-    color: var(--global-pink);
+    font: normal 600 4.5rem Montreal;
+    color: rgb(25, 25, 25);
 }
 
 .clients-logos {
