@@ -101,6 +101,7 @@ header:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 10vh;
     width: 100%;
     height: 100vh;
     background-image: url(./images/237100918_4107228086056864_9137450518867179949_n.png);
