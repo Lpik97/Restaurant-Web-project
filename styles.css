@@ -406,8 +406,6 @@ header:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 5vh 5vw;
-    gap: 5vh;
     background-color: rgb(240, 240, 240);
 }
 
@@ -415,6 +413,7 @@ header:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10vh 0;
     font: normal 600 4.5rem Montreal;
     color: rgb(25, 25, 25);
 }
