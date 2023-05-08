@@ -513,13 +513,3 @@ header:hover {
     align-items: center;
     gap: 5vw;
 }
-
-.footer-left-column2 {
-    margin-top: -5vh;
-}
-
-.footer-span {
-    grid-column: 1 / 4;
-    align-self: center;
-    justify-self: center;
-}
