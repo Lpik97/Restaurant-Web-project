@@ -514,6 +514,12 @@ header:hover {
     gap: 5vw;
 }
 
+.footer-left-column1 li,
+.footer-left-column2 li {
+    cursor: pointer;
+    transition: text-shadow .3s ease-in-out;
+}
+
 /* Pending to fix this, in order to not having to rely on the margin-top property*/
 .footer-left-column2 {
     margin-top: -5vh;
