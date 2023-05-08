@@ -539,3 +539,11 @@ header:hover {
     cursor: pointer;
     transition: filter .2s ease-in-out;
 }
+
+#tiktok {
+    width: 4vw;
+}
+
+#youtube {
+    width: 3.6vw;
+}
