@@ -73,6 +73,20 @@ table {
     --neon-pink: #f7b8fd;
 }
 
+#scrollButton {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    position: fixed;
+    top: 50vh;
+    left: 92vw;
+    width: 4vw;
+    height: 8vh;
+    cursor: pointer;
+    background-color: rgb(25, 25, 25, .25);
+    transition: background-color .3s ease-in-out;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -524,7 +538,6 @@ header:hover {
 .footer-left-column2 li:hover {
     text-shadow: 0 0 .1px white, 0 0 .1px white, 0 0 .1px white;
 }
-
 
 /* Pending to fix this, in order to not having to rely on the margin-top property*/
 .footer-left-column2 {
