@@ -12,6 +12,7 @@ function openWhatsApp () {
 }
 
 function reloadPage () {
+    window.scrollTo(0, 0);
     window.location.reload();
 }
 
