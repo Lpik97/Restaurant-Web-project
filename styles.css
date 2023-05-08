@@ -527,3 +527,8 @@ header:hover {
     gap: 3vh;
     grid-column: 1 / 4;
 }
+
+.footer-bottom-logos {
+    display: flex;
+    gap: 3vw;
+}
