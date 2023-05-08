@@ -87,6 +87,10 @@ table {
     transition: background-color .3s ease-in-out;
 }
 
+#scrollButton:hover {
+    background-color: rgb(25, 25, 25, .75);
+}
+
 body {
     display: flex;
     flex-direction: column;
