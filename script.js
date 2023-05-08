@@ -38,7 +38,7 @@ document.addEventListener('scroll', function () {
     const scrollButton = document.getElementById('scrollButton');
     if (window.scrollY >= 550 && window.scrollY <= 6520 && !scrollButton) {
         const scrollButton = document.createElement('div');
-        scrollButton.innerHTML = '<img src="./images/keyboard_double_arrow_up_FILL0_wght400_GRAD0_opsz48.svg"</img>';
+        scrollButton.innerHTML = '<img src="./images/arrow-up.svg"</img>';
         scrollButton.setAttribute('id', 'scrollButton');
         const products = document.querySelector('.products');
         document.body.insertBefore(scrollButton, products);
