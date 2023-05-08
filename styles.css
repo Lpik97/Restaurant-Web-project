@@ -532,3 +532,10 @@ header:hover {
     display: flex;
     gap: 3vw;
 }
+
+.footer-bottom-logos img {
+    width: 2.5vw;
+    filter: grayscale(50%);
+    cursor: pointer;
+    transition: filter .2s ease-in-out;
+}
