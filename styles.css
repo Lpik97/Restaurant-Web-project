@@ -513,3 +513,8 @@ header:hover {
     align-items: center;
     gap: 5vw;
 }
+
+/* Pending to fix this, in order to not having to rely on the margin-top property*/
+.footer-left-column2 {
+    margin-top: -5vh;
+}
