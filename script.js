@@ -5,8 +5,6 @@ const salonDonQuijote = document.querySelector('.salon-don-quijote');
 const salonDulcinea = document.querySelector('.salon-dulcinea');
 const salonSancho = document.querySelector('.salon-sancho');
 
-
-
 function openWhatsApp () {
     window.open('https://api.whatsapp.com/send/?phone=541152630497&text=Quisiera+obtener+mas+información+acerca+de+los+salones.&type=phone_number&app_absent=0', 'new-window', 'height=600,width=800,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=yes,directories=yes,status=yes');
 }
@@ -33,5 +31,18 @@ document.addEventListener('scroll', function () {
         salonDonQuijote.classList.add('scrolled-salon-don-quijote');
         salonDulcinea.classList.add('scrolled-salon-dulcinea');
         salonSancho.classList.add('scrolled-salon-sancho');
+    }
+});
+
+document.addEventListener('scroll', function () {
+    const scrollButton = document.getElementById('scrollButton');
+    if (window.scrollY >= 550 && window.scrollY <= 6520 && !scrollButton) {
+        const scrollButton = document.createElement('div');
+        scrollButton.innerHTML = '<img src="./images/keyboard_double_arrow_up_FILL0_wght400_GRAD0_opsz48.svg"</img>';
+        scrollButton.setAttribute('id', 'scrollButton');
+        const products = document.querySelector('.products');
+        document.body.insertBefore(scrollButton, products);
+    } else if (scrollButton && window.scrollY >= 6520 || scrollButton && window.scrollY < 550) {
+        scrollButton.remove();
     }
 });
