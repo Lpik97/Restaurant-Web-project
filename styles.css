@@ -559,18 +559,14 @@ header:hover {
 }
 
 .footer-bottom-logos img {
-    width: 2.5vw;
-    filter: grayscale(50%);
+    width: 4vw;
+    filter: grayscale(85%);
     cursor: pointer;
     transition: filter .2s ease-in-out;
 }
 
-#tiktok {
-    width: 4vw;
-}
-
-#youtube {
-    width: 3.6vw;
+#facebook {
+    width: 3.5vw;
 }
 
 .footer-bottom-logos img:hover {
