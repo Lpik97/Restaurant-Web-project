@@ -34,6 +34,14 @@ function reloadPage () {
     window.location.reload();
 }
 
+function scrollUp() {
+    let element = document.documentElement;
+    let options = {
+      behavior: 'smooth'
+    };
+    element.scrollIntoView(options);
+}
+
 document.addEventListener('scroll', function () {
     if (window.scrollY > 0) {
         navBar.classList.add('scrolled-navbar');
