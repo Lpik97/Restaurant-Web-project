@@ -21,6 +21,10 @@ function openInstagram () {
     window.open('https://www.instagram.com/dqrecepciones/', 'new-window');
 }
 
+function openTikTok () {
+    window.open('https://www.tiktok.com/@dqrecepciones', 'new-window');
+}
+
 function reloadPage () {
     window.scrollTo(0, 0);
     window.location.reload();
