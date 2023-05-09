@@ -532,20 +532,14 @@ header:hover {
     gap: 5vw;
 }
 
-.footer-left-column1 li,
+.footer-left-column1 img,
 .footer-left-column2 li {
     cursor: pointer;
     transition: text-shadow .3s ease-in-out;
 }
 
-.footer-left-column1 li:hover,
 .footer-left-column2 li:hover {
     text-shadow: 0 0 .1px white, 0 0 .1px white, 0 0 .1px white;
-}
-
-/* Pending to fix this, in order to not having to rely on the margin-top property*/
-.footer-left-column2 {
-    margin-top: -5vh;
 }
 
 .footer-bottom {
@@ -563,14 +557,14 @@ header:hover {
 }
 
 .footer-bottom-logos img {
-    width: 4vw;
+    width: 3vw;
     filter: grayscale(85%);
     cursor: pointer;
     transition: filter .2s ease-in-out;
 }
 
 #facebook {
-    width: 3.5vw;
+    width: 2.7vw;
 }
 
 .footer-bottom-logos img:hover {
