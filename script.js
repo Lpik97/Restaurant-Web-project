@@ -13,6 +13,10 @@ function openNewTab () {
     window.open('https://presupuesto.donquijoterecepciones.com/', 'new-window');
 }
 
+function openFacebook () {
+    window.open('https://www.facebook.com/dqrecepciones/', 'new-window');
+}
+
 function reloadPage () {
     window.scrollTo(0, 0);
     window.location.reload();
