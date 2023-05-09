@@ -70,6 +70,9 @@ document.addEventListener('scroll', function () {
         scrollButton.setAttribute('id', 'scrollButton');
         const products = document.querySelector('.products');
         document.body.insertBefore(scrollButton, products);
+        scrollButton.addEventListener('click', function() {
+            scrollUp();
+        });
     } else if (scrollButton && window.scrollY >= 6520 || scrollButton && window.scrollY < 550) {
         scrollButton.remove();
     }
