@@ -25,6 +25,10 @@ function openTikTok () {
     window.open('https://www.tiktok.com/@dqrecepciones', 'new-window');
 }
 
+function openYoutube () {
+    window.open('https://www.youtube.com/@dqrecepciones', 'new-window');
+}
+
 function reloadPage () {
     window.scrollTo(0, 0);
     window.location.reload();
