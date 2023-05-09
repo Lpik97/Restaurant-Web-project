@@ -17,6 +17,10 @@ function openFacebook () {
     window.open('https://www.facebook.com/dqrecepciones/', 'new-window');
 }
 
+function openInstagram () {
+    window.open('https://www.instagram.com/dqrecepciones/', 'new-window');
+}
+
 function reloadPage () {
     window.scrollTo(0, 0);
     window.location.reload();
