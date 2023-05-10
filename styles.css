@@ -260,42 +260,17 @@ header:hover {
 .salon-don-quijote:hover,
 .salon-dulcinea:hover,
 .salon-sancho:hover{
-    cursor: pointer;
     opacity: 1;
-}
-
-.salon-don-quijote:hover .salon-don-quijote-text,
-.salon-dulcinea:hover .salon-dulcinea-text,
-.salon-sancho:hover .salon-sancho-text {
-    background-color: rgb(25, 25, 25);
-}
-
-.salon-don-quijote-text,
-.salon-dulcinea-text,
-.salon-sancho-text {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    background-color: rgb(255, 255, 255, 0.1);
-    padding: 1vw;
-    border-radius: .5vw;
-    transition: all .5s ease-in-out;
 }
 
 .salon-don-quijote-title,
 .salon-dulcinea-title,
 .salon-sancho-title {
-    font: italic 600 2.2rem var(--system-ui);
+    padding: 0 10vw;
+    font: italic 600 5rem var(--system-ui);
+    background-color: rgb(25, 25, 25, .50);
     color: white;
-}
-
-.salon-don-quijote-subtitle,
-.salon-dulcinea-subtitle,
-.salon-sancho-subtitle {
-    font: normal 100 1.1rem var(--system-ui);
-    text-align: justify;
-    color: white;
-}
+}   
 
 .us {
     display: flex;
