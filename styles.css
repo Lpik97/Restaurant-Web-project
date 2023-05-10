@@ -228,33 +228,27 @@ header:hover {
 }
 
 .salon-don-quijote,
+.salon-dulcinea,
 .salon-sancho {
     display: flex;
-    justify-content: flex-start;
-    align-items:last baseline;
-    padding: 5vh 5vw;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
     background-image: url(./images/ibrahim-boran-m8YjB0noWiY-unsplash.jpg);
     background-size: cover;
     opacity: .5;
+    cursor: pointer;
     transform: translateX(100%);
-    transition: transform 5s ease-out, cursor .1s ease-in, opacity .5s ease-in-out;
+    transition: transform 5s ease-out, opacity .5s ease-in-out;
 }
 
 .salon-dulcinea {
-    display: flex;
-    justify-content: flex-end;
-    align-items:last baseline;
-    padding: 5vh 5vw;
+    align-items: flex-end;
     background-image: url(./images/andrii-olishevskyi-iTc58VLTtEw-unsplash.jpg);
-    background-size: cover;
-    opacity: .5;
-    transform: translateX(-100%);
-    transition: transform 5s ease-out, cursor .1s ease-in, back, opacity .5s ease-in-out;
 }
 
 .salon-sancho {
     background-image: url(./images/thomas-william-OAVqa8hQvWI-unsplash.jpg);
-    background-size: cover;
 }
 
 .scrolled-salon-don-quijote,
