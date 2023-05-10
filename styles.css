@@ -214,8 +214,10 @@ header:hover {
 
 .products {
     display: grid;
-    grid-template: 10% repeat(3, 1fr) / 1fr;
-    height: 220vh;
+    grid-template: auto repeat(3, 1fr) / 1fr;
+    row-gap: 5vh;
+    width: 80%;
+    height: 200vh;
 }
 
 .products-title {
