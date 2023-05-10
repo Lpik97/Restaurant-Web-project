@@ -221,10 +221,8 @@ header:hover {
 }
 
 .products-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10vh 0;
+    place-self: center;
+    margin-top: 5vh;
     font: normal 600 4.5rem Montreal;
     color: rgb(25, 25, 25);
 }
