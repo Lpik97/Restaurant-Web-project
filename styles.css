@@ -280,12 +280,12 @@ header:hover {
     width: 90%;
 }
 
-.us-first {
+.us-title {
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: 83vh;
-    background-color: white;
+    align-items: center;
+    font: normal 600 4.5rem Montreal;
+    color: rgb(25, 25, 25);
 }
 
 .us-first-grid {
