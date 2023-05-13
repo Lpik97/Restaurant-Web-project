@@ -308,6 +308,8 @@ header:hover {
 }
 
 .us-first-quote {
+    justify-self: center;
+    width: 30vw;
     font: normal 100 1.2rem Open-sauce;
     color: rgb(25, 25, 25);
 }
