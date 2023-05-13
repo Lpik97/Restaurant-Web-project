@@ -359,9 +359,10 @@ header:hover {
 }
 
 .us-third-container {
+    place-self: center;
     display: flex;
     flex-direction: column;
-    gap: 10vh;
+    width: 30vw;
 }
 
 .us-third-title {
