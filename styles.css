@@ -320,7 +320,8 @@ header:hover {
 }
 
 .us-second-img {
-    width: 25vw;
+    width: 30vw;
+    height: auto;
 }
 
 .us-second-container {
