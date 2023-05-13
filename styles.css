@@ -340,7 +340,7 @@ header:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2vh;
+    gap: 5vh;
 }
 
 .us-second-text {
