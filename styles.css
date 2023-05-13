@@ -506,6 +506,11 @@ header:hover {
     font: normal 300 1.06rem var(--system-ui);
 }
 
+.footer-right-frame {
+    width: 25vw;
+    height: 22vh;
+}
+
 .footer-bottom {
     display: flex;
     flex-direction: column;
