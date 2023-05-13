@@ -316,10 +316,7 @@ header:hover {
 
 .us-second {
     display: flex;
-    justify-content: center;
-    gap: 5vw;
-    width: 100%;
-    background-color: white;
+    justify-content: space-around;
 }
 
 .us-second-img {
