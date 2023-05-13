@@ -215,8 +215,8 @@ header:hover {
 .products {
     display: grid;
     grid-template: auto repeat(3, 1fr) / 1fr;
-    row-gap: 5vh;
-    width: 80%;
+    row-gap: 10vh;
+    width: 90%;
     height: 200vh;
 }
 
