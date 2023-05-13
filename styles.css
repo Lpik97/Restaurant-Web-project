@@ -275,9 +275,9 @@ header:hover {
 .us {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin: 15vh 0;
-    gap: 15vh;
+    gap: 10vh;
+    margin: 10vh 0;
+    width: 90%;
 }
 
 .us-first {
