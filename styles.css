@@ -399,6 +399,13 @@ header:hover {
     width: 75%;
 }
 
+.logos1,
+.logos2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30vw;
+}
+
 .clients-logos-media {
     display: grid;
     column-gap: 5vw;
