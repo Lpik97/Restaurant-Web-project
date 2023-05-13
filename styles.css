@@ -288,11 +288,10 @@ header:hover {
     color: rgb(25, 25, 25);
 }
 
-.us-first-grid {
+.us-first {
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-    row-gap: 1vh;
-    column-gap: 5vw;
+    height: 100vh;
 }
 
 .us-first-title {
