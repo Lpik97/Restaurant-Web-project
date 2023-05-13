@@ -353,15 +353,9 @@ header:hover {
     grid-template: 1fr / repeat(2, 1fr);
 }
 
-.us-third-grid {
-    display: grid;
-    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-    column-gap: 5vw;
-}
-
 .us-third-img {
-    align-self: center;
-    width: 25vw;
+    place-self: center;
+    width: 30vw;
 }
 
 .us-third-container {
