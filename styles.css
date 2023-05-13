@@ -301,12 +301,10 @@ header:hover {
     color: rgb(25, 25, 25);
 }
 
-.us-first-image-one {
-    width: 25vw;
-}
-
-.us-first-image-two {
-    width: 25vw;
+.us-first-image-one,
+.us-first-image-two{
+    place-self: center;
+    width: 30vw;
 }
 
 .us-first-quote {
