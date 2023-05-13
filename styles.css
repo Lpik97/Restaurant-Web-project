@@ -486,8 +486,15 @@ header:hover {
     width: 25vw;
 }
 
-.footer-left-column2 li:hover {
-    text-shadow: 0 0 .1px white, 0 0 .1px white, 0 0 .1px white;
+.footer-left-column {
+    text-align: justify;
+    font: normal 300 1.2rem var(--system-ui);
+}
+
+.footer-left-img,
+.footer-left-column li {
+    cursor: pointer;
+    transition: text-decoration .3s ease-in-out, text-shadow .3s ease-in-out;
 }
 
 .footer-bottom {
