@@ -502,6 +502,10 @@ header:hover {
     text-shadow: 0 0 .1px white, 0 0 .1px white, 0 0 .1px white;
 }
 
+.footer-right-column {
+    font: normal 300 1.06rem var(--system-ui);
+}
+
 .footer-bottom {
     display: flex;
     flex-direction: column;
