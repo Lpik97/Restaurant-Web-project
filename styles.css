@@ -295,8 +295,9 @@ header:hover {
 }
 
 .us-first-title {
-    align-self: center;
-    font: normal 300 4.5rem Prata;
+    place-self: center;
+    width: 30vw;
+    font: normal 300 5.6rem Prata;
     color: rgb(25, 25, 25);
 }
 
