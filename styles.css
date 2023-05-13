@@ -422,7 +422,7 @@ header:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10vh;
+    margin: 10vh 0;
     font: normal 600 4.5rem Montreal;
     color: rgb(25, 25, 25);
 }
