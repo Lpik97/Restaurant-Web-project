@@ -482,10 +482,8 @@ header:hover {
     gap: 2.5vw;
 }
 
-.footer-left-column1 img,
-.footer-left-column2 li {
-    cursor: pointer;
-    transition: text-shadow .3s ease-in-out;
+.footer-left-img{
+    width: 25vw;
 }
 
 .footer-left-column2 li:hover {
