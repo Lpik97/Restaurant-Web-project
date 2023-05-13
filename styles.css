@@ -521,7 +521,7 @@ header:hover {
 
 .footer-bottom-logos {
     display: flex;
-    gap: 3vw;
+    gap: 5vw;
 }
 
 .footer-bottom-logos img {
