@@ -476,11 +476,10 @@ header:hover {
 
 .footer-left,
 .footer-right {
-    text-align: justify;
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 5vw;
+    width: 35vw;
+    gap: 2.5vw;
 }
 
 .footer-left-column1 img,
