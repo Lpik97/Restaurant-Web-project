@@ -428,9 +428,8 @@ header:hover {
 }
 
 .meetus-cards {
-    display: grid;
-    column-gap: 10vw;
-    grid-template: 1fr / repeat(2, 1fr);
+    display: flex;
+    justify-content: space-around;
 }
 
 .meetus-cards-left,
