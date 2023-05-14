@@ -57,6 +57,11 @@ function scrollToClients() {
     element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 }
 
+function scrollToMeetus() {
+    const element = document.getElementById("meetus");
+    element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+}
+
 document.addEventListener('scroll', function () {
     if (window.scrollY > 0) {
         navBar.classList.add('scrolled-navbar');
