@@ -10,15 +10,15 @@
 </head>
 <body>
     <header onclick="openWhatsApp()">Comunicate con nosotros vía Whatsapp 24/7</header>
-    <section class="upper-section">
+    <section class="upper-section" id="upper-section">
         <nav class="navbar">
             <img src="https://img1.wsimg.com/isteam/ip/9ba9afa2-1418-48e5-a00a-de6a8d0a8b1c/blob-6ce4965.png/:/rs=w:695,h:312,cg:true,m/cr=w:695,h:312/qt=q:95" onclick="reloadPage()" class="navbar-logo">
             <ul class="navbar-list">
-                <li class="item">SALONES</li>
-                <li class="item">NOSOTROS</li>
-                <li class="item">CLIENTES</li>
-                <li class="item">CONTACTO</li>
-                <li class="item">INFORMACIÓN</li>
+                <li class="item" onclick="scrollToProducts()">SALONES</li>
+                <li class="item" onclick="scrollToUs()">NOSOTROS</li>
+                <li class="item" onclick="scrollToClients()">CLIENTES</li>
+                <li class="item" onclick="scrollToMeetus()">CONTACTO</li>
+                <li class="item" onclick="scrollToFooter()">INFORMACIÓN</li>
             </ul>
         </nav>
         <div class="hero">
@@ -26,7 +26,7 @@
             <button class="hero-button" onclick="openNewTab()">SOLICITAR UN PRESUPUESTO</button>
         </div>
     </section>
-    <section class="products">
+    <section class="products" id="products">
         <h1 class="products-title">NUESTROS SALONES</h1>
         <div class="salon-don-quijote">
             <h1 class="salon-don-quijote-title">Salon Don Quijote</h1>
@@ -38,7 +38,7 @@
             <h1 class="salon-sancho-title">Salon Sancho</h1>
         </div>
     </section>
-    <section class="us">
+    <section class="us" id="us">
         <h1 class="us-title">¿QUIENES SOMOS?</h1>
         <div class="us-first">
             <h1 class="us-first-title">Pasión por lo <br>que hacemos</h1>
@@ -65,7 +65,7 @@
                 </div>
         </div>
     </section>
-    <section class="clients">
+    <section class="clients" id="clients">
         <h1 class="clients-title">LA OPINIÓN DE NUESTROS CLIENTES</h1>
         <div class="clients-reviews">
             <div class="clients-reviews-media">
@@ -83,7 +83,7 @@
             </div>
         </div>
     </section>
-    <section class="meetus">
+    <section class="meetus" id="meetus">
         <h1 class="meetus-title">CONTACTANOS</h1>
         <div class="meetus-cards">
             <div class="meetus-cards-left">
@@ -94,15 +94,15 @@
             </div>
         </div>
     </section>
-    <section class="footer">
+    <section class="footer" id="footer">
         <div class="footer-left">
             <img src="https://img1.wsimg.com/isteam/ip/9ba9afa2-1418-48e5-a00a-de6a8d0a8b1c/blob-6ce4965.png/:/rs=w:695,h:312,cg:true,m/cr=w:695,h:312/qt=q:95" onclick="reloadPage()" class="footer-left-img">
             <ul class="footer-left-column">
-                <li class="column-item">INICIO</li>
-                <li class="column-item">SALONES</li>
-                <li class="column-item">NOSOTROS</li>
-                <li class="column-item">CLIENTES</li>
-                <li class="column-item">CONTACTO</li>
+                <li class="column-item" onclick="scrollUp()">INICIO</li>
+                <li class="column-item" onclick="scrollToProducts()">SALONES</li>
+                <li class="column-item" onclick="scrollToUs()">NOSOTROS</li>
+                <li class="column-item" onclick="scrollToClients()">CLIENTES</li>
+                <li class="column-item" onclick="scrollToMeetus()">CONTACTO</li>
             </ul>
         </div>
         <div class="footer-right">
