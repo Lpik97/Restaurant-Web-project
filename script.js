@@ -62,6 +62,11 @@ function scrollToMeetus() {
     element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 }
 
+function scrollToFooter() {
+    const element = document.getElementById("footer");
+    element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+}
+
 document.addEventListener('scroll', function () {
     if (window.scrollY > 0) {
         navBar.classList.add('scrolled-navbar');
