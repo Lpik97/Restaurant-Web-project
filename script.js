@@ -47,6 +47,11 @@ function scrollToProducts() {
     element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 }
 
+function scrollToUs() {
+    const element = document.getElementById("us");
+    element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+}
+
 document.addEventListener('scroll', function () {
     if (window.scrollY > 0) {
         navBar.classList.add('scrolled-navbar');
