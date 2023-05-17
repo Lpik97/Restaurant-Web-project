@@ -227,9 +227,7 @@ header:hover {
     color: rgb(25, 25, 25);
 }
 
-.salon-don-quijote,
-.salon-dulcinea,
-.salon-sancho {
+.salon {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -242,12 +240,12 @@ header:hover {
     transition: transform 5s ease-out, opacity .5s ease-in-out;
 }
 
-.salon-dulcinea {
+#salon-dulcinea {
     align-items: flex-end;
     background-image: url(./images/andrii-olishevskyi-iTc58VLTtEw-unsplash.jpg);
 }
 
-.salon-sancho {
+#salon-sancho {
     background-image: url(./images/thomas-william-OAVqa8hQvWI-unsplash.jpg);
 }
 
@@ -257,9 +255,7 @@ header:hover {
     transform: translateX(0);
 }
 
-.salon-don-quijote:hover,
-.salon-dulcinea:hover,
-.salon-sancho:hover{
+.salon:hover {
     opacity: 1;
 }
 
