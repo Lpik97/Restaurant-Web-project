@@ -89,6 +89,33 @@ document.addEventListener('scroll', () => {
     }
 });
 
+salones.forEach(salon => {
+    salon.addEventListener('click', () => {
+        let newTab = window.open("", "_blank", 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=1366, height=768, top=250, left=250');
+        newTab.document.open();
+        newTab.document.write(`
+            <html>
+              <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="styles.css">
+                <title>${salon.id}</title>
+              </head>
+              <body>
+                <div class="carousel" data-carousel>
+                  <button class="carousel-button left" data-carousel-button="left">&#8249;</button>
+                  <button class="carousel-button right" data-carousel-button="right">&#8250;</button>
+                  <ul data-slides>
+                  </ul>
+                </div>
+              </body>
+            </html>
+          `);
+        newTab.document.close();
+    });
+});
+
 document.addEventListener('scroll', () => {
     const scrollButton = document.getElementById('scrollButton');
     if (window.scrollY >= 550 && window.scrollY <= 6520 && !scrollButton) {
