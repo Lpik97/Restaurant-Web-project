@@ -15,6 +15,27 @@ function openNewTab () {
     window.open('https://presupuesto.donquijoterecepciones.com/', 'new-window');
 }
 
+function openVisitUs () {
+    let screenWidth = window.screen.width;
+    let screenHeight = window.screen.height;
+    let newTab = window.open("", "_blank", `width=${screenWidth}, height=${screenHeight}`);
+    newTab.document.open();
+    newTab.document.write(`
+        <html>
+            <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="styles.css">
+            <title>Agenda una visita</title>
+            </head>
+            <body>
+            <iframe id="iframe-06" frameborder="0" sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-presentation allow-top-navigation" src="javascript: window.frameElement.getAttribute(&quot;srcdoc&quot;);" srcdoc="<script>window.onmessage = function(event) {event.source.postMessage({iframeId: event.data, scrollHeight: document.body.getBoundingClientRect().height || document.body.scrollHeight}, event.origin);};</script><body style='margin: 0'><iframe src=&quot;https://app.squarespacescheduling.com/schedule.php?owner=22482463&quot; title=&quot;Reservar cita&quot; width=&quot;100%&quot; height=&quot;800&quot; frameBorder=&quot;0&quot;></iframe><script src=&quot;https://embed.acuityscheduling.com/js/embed.js&quot; type=&quot;text/javascript&quot;></script></body>" style="width: 100%; overflow: visible; transition: height 1.5s ease 0s; height: 704px;"></iframe>
+            </body>
+        </html>
+    `);
+}
+
 function openFacebook () {
     window.open('https://www.facebook.com/dqrecepciones/', 'new-window');
 }
