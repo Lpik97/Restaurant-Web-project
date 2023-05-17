@@ -169,22 +169,23 @@ salones.forEach(salon => {
                     </li>
                 `;
             }
-            function getCarouselText(salonId) {
-                if (salonId === 'salon-don-quijote') {
-                    return `
-                        <p class="salon-p">El salon Don Quijote es nuestra propuesta mas versátil, con capacidad máxima de hasta 200 invitados, cuenta con una amplia pista de baile dotada de la última tecnología en iluminación y sonido, como también, un jardin delantero donde tendrá lugar la recepción de tus invitados. El comedor por su parte, impacta con su novedoso cielo raso que estimulará la imaginación de todos los comensales.</p>
-                    `;
-                } else if (salonId === 'salon-dulcinea') {
-                    return `
-                        <p class="salon-p">El salon Dulcinea, con una capacidad de hasta 160 invitados, conserva intacta la escencia de los clásicos salones de antaño combinándolo a su vez con un cálido diseño contemporáneo. Siendo su cualidad mas destacada, el amplio recinto de terraza estilo deck, perfecto para disfrutar de un trago mientras el evento se desarolla.</p>
-                    `;
-                } else if (salonId === 'salon-sancho') {
-                    return `
-                        <p class="salon-p">El salon Sancho dislumbra a todos por su moderno y minimalista diseño, jugando con la iluminación creará gratas sencaciones entre los invitados. Ideal para eventos íntimos, contarás con un amplio patio trasero donde la barra se lleva el protagonismo de la noche.</p>
-                    `;
-                }
+        }
+        function getCarouselText(salonId) {
+            if (salonId === 'salon-don-quijote') {
+                return `
+                    <p class="salon-p">El salon Don Quijote es nuestra propuesta mas versátil, con capacidad máxima de hasta 200 invitados, cuenta con una amplia pista de baile dotada de la última tecnología en iluminación y sonido, como también, un jardin delantero donde tendrá lugar la recepción de tus invitados. El comedor por su parte, impacta con su novedoso cielo raso que estimulará la imaginación de todos los comensales.</p>
+                `;
+            } else if (salonId === 'salon-dulcinea') {
+                return `
+                    <p class="salon-p">El salon Dulcinea, con una capacidad de hasta 160 invitados, conserva intacta la escencia de los clásicos salones de antaño combinándolo a su vez con un cálido diseño contemporáneo. Siendo su cualidad mas destacada, el amplio recinto de terraza estilo deck, perfecto para disfrutar de un trago mientras el evento se desarolla.</p>
+                `;
+            } else if (salonId === 'salon-sancho') {
+                return `
+                    <p class="salon-p">El salon Sancho dislumbra a todos por su moderno y minimalista diseño, jugando con la iluminación creará gratas sencaciones entre los invitados. Ideal para eventos íntimos, contarás con un amplio patio trasero donde la barra se lleva el protagonismo de la noche.</p>
+                `;
             }
         }
+
     });
 });
 
