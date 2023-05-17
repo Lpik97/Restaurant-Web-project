@@ -470,15 +470,8 @@ header:hover {
 
 .clients-logos {
     display: flex;
-    justify-content: space-between;
-    width: 75%;
-}
-
-.logos1,
-.logos2 {
-    display: flex;
     justify-content: space-evenly;
-    width: 30vw;
+    width: 75%;
 }
 
 .clients-logos img {
