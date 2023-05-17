@@ -129,6 +129,45 @@ salones.forEach(salon => {
             </html>
           `);
         newTab.document.close();
+        function getCarouselImages(salonId) {
+            if (salonId === 'salon-don-quijote') {
+                return `
+                    <li class="slide" data-active>
+                    <img src="./images/karl-hedin-wN3q1ANmXJQ-unsplash.jpg" alt="">
+                    </li>
+                    <li class="slide">
+                    <img src="./images/karl-hedin-wN3q1ANmXJQ-unsplash.jpg" alt="">
+                    </li>
+                    <li class="slide">
+                    <img src="./images/karl-hedin-wN3q1ANmXJQ-unsplash.jpg" alt="">
+                    </li>
+                `;
+            } else if (salonId === 'salon-dulcinea') {
+                return `
+                    <li class="slide" data-active>
+                    <img src="./images/logan-weaver-lgnwvr-vJlaWLnGcb0-unsplash.jpg" alt="">
+                    </li>
+                    <li class="slide">
+                    <img src="./images/logan-weaver-lgnwvr-vJlaWLnGcb0-unsplash.jpg" alt="">
+                    </li>
+                    <li class="slide">
+                    <img src="./images/logan-weaver-lgnwvr-vJlaWLnGcb0-unsplash.jpg" alt="">
+                    </li>
+                `;
+            } else if (salonId === 'salon-sancho') {
+                return `
+                    <li class="slide" data-active>
+                    <img src="./images/andrii-olishevskyi-iTc58VLTtEw-unsplash.jpg" alt="">
+                    </li>
+                    <li class="slide">
+                    <img src="./images/andrii-olishevskyi-iTc58VLTtEw-unsplash.jpg" alt="">
+                    </li>
+                    <li class="slide">
+                    <img src="./images/andrii-olishevskyi-iTc58VLTtEw-unsplash.jpg" alt="">
+                    </li>
+                `;
+            }
+        }
     });
 });
 
