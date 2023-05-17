@@ -266,7 +266,13 @@ header:hover {
     font: italic 600 5rem var(--system-ui);
     background-color: rgb(25, 25, 25, .75);
     color: white;
-}   
+}
+
+.carousel {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
 
 .us {
     display: flex;
