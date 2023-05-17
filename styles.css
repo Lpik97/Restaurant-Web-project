@@ -264,7 +264,7 @@ header:hover {
 .salon-sancho-title {
     padding: 0 10vw;
     font: italic 600 5rem var(--system-ui);
-    background-color: rgb(25, 25, 25, .50);
+    background-color: rgb(25, 25, 25, .75);
     color: white;
 }   
 
