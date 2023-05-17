@@ -112,7 +112,15 @@ document.addEventListener('scroll', () => {
 
 salones.forEach(salon => {
     salon.addEventListener('click', () => {
-        let newTab = window.open("", "_blank", 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=1366, height=768, top=250, left=250');
+        let screenWidth = window.screen.width;
+        let screenHeight = window.screen.height;
+        let newTabWidth = 1366;
+        let newTabHeight = 768;
+        
+        let leftPosition = Math.max(0, (screenWidth - newTabWidth) / 2);
+        let topPosition = Math.max(0, (screenHeight - newTabHeight) / 2);
+        
+        let newTab = window.open("", "_blank", `toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=${newTabWidth}, height=${newTabHeight}, top=${topPosition}, left=${leftPosition}`);
         newTab.document.open();
         newTab.document.write(`
             <html>
