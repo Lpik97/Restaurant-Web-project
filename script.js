@@ -1,9 +1,11 @@
 const navBar = document.querySelector('.navbar');
 const navBarLogo = document.querySelector('.navbar-logo');
 const navBarList = document.querySelector('.navbar-list');
-const salonDonQuijote = document.querySelector('.salon-don-quijote');
-const salonDulcinea = document.querySelector('.salon-dulcinea');
-const salonSancho = document.querySelector('.salon-sancho');
+const salones = document.querySelectorAll('.salon')
+const salonDonQuijote = document.getElementById('salon-don-quijote');
+const salonDulcinea = document.getElementById('salon-dulcinea');
+const salonSancho = document.getElementById('salon-sancho');
+
 
 function openWhatsApp () {
     window.open('https://api.whatsapp.com/send/?phone=541152630497&text=Quisiera+obtener+mas+información+acerca+de+los+salones.&type=phone_number&app_absent=0', 'new-window', 'height=600,width=800,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=yes,directories=yes,status=yes');
@@ -67,7 +69,7 @@ function scrollToFooter() {
     element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 }
 
-document.addEventListener('scroll', function () {
+document.addEventListener('scroll', () => {
     if (window.scrollY > 0) {
         navBar.classList.add('scrolled-navbar');
         navBarLogo.classList.add('scrolled-navbar-logo');
@@ -79,7 +81,7 @@ document.addEventListener('scroll', function () {
     }
 });
 
-document.addEventListener('scroll', function () {
+document.addEventListener('scroll', () => {
     if (window.scrollY >= 180) {
         salonDonQuijote.classList.add('scrolled-salon-don-quijote');
         salonDulcinea.classList.add('scrolled-salon-dulcinea');
@@ -87,7 +89,7 @@ document.addEventListener('scroll', function () {
     }
 });
 
-document.addEventListener('scroll', function () {
+document.addEventListener('scroll', () => {
     const scrollButton = document.getElementById('scrollButton');
     if (window.scrollY >= 550 && window.scrollY <= 6520 && !scrollButton) {
         const scrollButton = document.createElement('div');
