@@ -289,6 +289,12 @@ header:hover {
     background-color: rgb(0, 0, 0, .1);
 }
 
+.carousel-button:hover,
+.carousel-button:active {
+    color: white;
+    background-color: rgb(0, 0, 0, .2);
+}
+
 .us {
     display: flex;
     flex-direction: column;
